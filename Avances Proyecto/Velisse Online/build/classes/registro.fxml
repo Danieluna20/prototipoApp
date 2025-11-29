@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="844.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="913.0" fitWidth="570.0" layoutX="-87.0" layoutY="-2.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/registroImg.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#666464" layoutX="19.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke: white;; -fx-stroke-width: 1px;;" text="Registro">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Text>
+      <TextField layoutX="19.0" layoutY="335.0" opacity="0.89" prefHeight="54.0" prefWidth="352.0" />
+      <TextField layoutX="19.0" layoutY="441.0" opacity="0.93" prefHeight="54.0" prefWidth="352.0" />
+      <Label layoutX="19.0" layoutY="305.0" text="Nombre de usuario">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="19.0" layoutY="414.0" text="Contraseña">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="214.0" layoutY="532.0" text="Inicia sesión" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="106.0" layoutY="534.0" text="¿Ya tienes cuenta?">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
